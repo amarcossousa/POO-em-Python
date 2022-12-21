@@ -15,6 +15,17 @@ class Carro:
                   print (f"O carro {self.modelo} está andando a {velocidade} km/h, 'sem notificação'")
             return 0
       
+      def carro_andando(self, velocidade):
+            print(f"Seu {self.modelo} está à {velocidade} km/h")
+            return 0
+      
+      def carro_parado(self):
+            if not self.carro_andando:
+                  print(f"Seu {self.carro} está parado")
+            else:
+                  print(f"Seu {self.carro} está a parado")
+            return 0
+      
      
 
 
